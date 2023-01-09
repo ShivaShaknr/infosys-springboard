@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Education domain</title>
+        <style>
+            body{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+            #img1{
+                height: 200;
+                width: 400;
+            }
+            h1,#id_1{
+                color:orange;
+
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+              }
+
+            li {
+                float: left;
+               }
+
+            li a {
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+              }
+
+
+            li a:hover {
+                  background-color:orange;
+            }
+            footer {
+                 text-align: center;
+                 padding: 3px;
+                 background-color:#333;
+                 color: white;
+            }
+            #h_1,#h_2,#h_3,#h_4,#h_5{
+                padding: 10px;
+                border: 2px solid #333;
+                margin-right: 10px;
+            }
+            #main_div{
+                display: flex;
+                height: 700px;
+            }
+            #left{
+                width: 60%;
+                height: 100%;
+            }
+            #right{
+                width: 40%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.ukbZGZETv4EohRuq2whS4wHaE7&pid=Api&P=0" id="img1">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Examination</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> 
+        <br> 
+<div id="main_div">
+    <div id="left">
+        <div id="h_1">  
+            <h1>Welcome to Online Examination System</h1>
+            <p>This Website is maintained by Kavya</p>
+            <p>In Online Examination System the exams are conducted using objective questions.The questions can have single answer or multiple answers.The online examination system tries it's best on providing all the feautres that an examination system must have</pre>
+        </div> 
+        <br>
+        <div id="h_2">   
+            <h1>Taxonomy</h1>
+            <p>This Website is maintained by Kavya</p>
+            <p>In Online Examination System the exams are conducted using objective questions.The questions can have single answer or multiple answers.The online examination system tries it's best on providing all the feautres that an examination system must have</pre>
+        </div> 
+        <br> 
+    </div>
+    <div id="right">
+        <div id="h_3"> 
+            <h2>Circular</h2>
+            <p>Scholarship application will be made available at all the colleges from 12th September 2016</p>
+        </div>
+        <br>
+        <div id="h_4"> 
+            <h2>Notification</h2>
+            <p>Last date for submitting re-evalution application has been extended till 20th September 2016</p>
+        </div>
+        <br>
+        <div id="h_5">   
+            <h2>Latest News</h2>
+            <p>Examination time table for the current financial year will be announced soon</p>
+        </div>
+        </div>
+        <br>
+    </div>
+</div>
+        <footer>
+            Copyright &#169; 2020 <a href="#" id="id_1">exam@gmail.com</a>
+        </footer>    
+        
+    </body>
+</html>
