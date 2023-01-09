@@ -1,0 +1,211 @@
+homepage.html
+-------------
+<html>
+    <head>
+        <title>friendshipzone</title>
+        <style>
+            body{
+                font-family: cursive;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="Friends.PNG">
+        <h1>Friendship zone</h1>
+        <h4>A place to find like minded people</h4>
+        <h5>One of the most beautiful qualities of true friendship is to understand and to understood.</h5>
+        <p>A real friend is one who walks in when the whole world walks out</p>
+        <hr>
+        <a href="friendlist.html">
+            <ul>
+                <li>Click here to search friend</li>
+            </a>
+                <li>Send mail for your suggestion
+                <a href="#">shivanat05@gmail.com</a>
+                </li>
+            </ul>
+        <hr>
+        <h3>Feautres of the friendship zone</h3>
+        <h4>Friendship</h4>
+        <p>Being part of a friendship zone website enables you to connected with your friends</p>
+        <h4>Dating</h4>
+        <p>Being part of a friendship zone helps you to meet a companion,your life partner or your soul mate.Exchange your thoughts ,indulge in intimate conversation and intract with opposite sex</p>
+        <h4>Follow us on</h4>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>    
+        <p>All rights reserved</p>
+        
+    </body>
+</html>
+
+
+friendlist.html
+---------------
+<html>
+    <head>
+        <title>friendshipzone</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            table,th,td{
+                border: 2px solid black;
+            }
+            body{
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="Friends.PNG">
+        <h1>Friendship zone</h1>
+        <h2>Details of people...</h2>
+        <table>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <th>Name</th>
+                    <th>About</th>
+                    <th>Send Request</th>
+                    <th>Contact</th>
+                </tr>
+                <tr>
+                    <td>Mariya</td>
+                    <td>adventerous,likes to participate in bungee jumping</td>
+                    <td><input type="submit" value="Friendship"></td>
+                    <td>
+                        <table border="2" bordercolor="blue">
+                            <tr>
+                                <td>555 77 855</td>  
+                            </tr>
+                            <tr>
+                                <td><a href="#">mariya@yourcompany.com</a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Adams</td>
+                    <td>Likes music and reading books</td>
+                    <td>
+                        <input type="submit" value="Friendship">
+                        <input type="submit" value="Dating">
+                    </td>
+                    <td>
+                        <table border="2" bordercolor="blue">
+                            <tr>
+                                <td>555 77 744</td>  
+                            </tr>
+                            <tr>
+                                <td><a href="#">adamm@yourcompany.com</a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+        <a href="registrationform.html"><h2>Register to get added in the list</h2></a>
+    </body>
+</html>
+
+
+registrationform.html
+---------------------
+
+<html>
+    <head>
+        <title>friendship</title>
+        <style>
+            body{
+                font-family: cursive;
+            }
+            h1{
+                text-align: center;
+               }
+        </style>
+    </head>
+    <body>
+        <img src="Friends.PNG">
+        <h1>Friendship zone</h1>
+        <h2>Add your details to register</h2>
+        <form action="registrationconfirmatio.html">
+            NAME:<input type="text" placeholder="Enter your name">
+            <br><br>
+            EMAIL:<input type="email" placeholder="Enter your mail-id">
+            <br><br>
+            AGE:<input type="number" placeholder="Enter your age">
+            <br><br>
+            BIRTHDATE:<input type="date" placeholder="Enter your birthdate">
+            <br><br>
+            GENDER:<input type="radio" placeholder="Enter your gender">M
+            <input type="radio" placeholder="Enter your gender">F
+            <br><br>
+            ABOUT:  <textarea name="" id="" rows="10" cols="30"></textarea> 
+            PHONE: <input type="number" placeholder="Enter mobile number">
+            <br><br>
+            INTRESTED IN :<input type="radio" placeholder="Enter your gender">Friendship
+            <input type="radio" placeholder="Enter your gender">Dating
+            <br><br>
+            ATTACHMENT:<input type="submit" value="Choose file">no file choosen
+            <br><br>
+            <input type="submit" value="Register">
+            <input type="submit" value="Register as admin">
+
+        </form>
+
+    </body>
+</html>
+
+registrationconfirmatio.html
+----------------------------
+
+<html>
+    <head>
+        <title>friendship</title>
+        <style>
+            body{
+                font-family: cursive;
+            }
+            h1{
+                text-align: center;
+               }
+        </style>
+    </head>
+    <body>
+        <img src="Friends.PNG">
+        <h1>Friendship zone</h1>
+        <h2>Add your details to register</h2>
+        <form action="registrationconfirmatio.html">
+            NAME:<input type="text" placeholder="Enter your name">
+            <br><br>
+            EMAIL:<input type="email" placeholder="Enter your mail-id">
+            <br><br>
+            AGE:<input type="number" placeholder="Enter your age">
+            <br><br>
+            BIRTHDATE:<input type="date" placeholder="Enter your birthdate">
+            <br><br>
+            GENDER:<input type="radio" placeholder="Enter your gender">M
+            <input type="radio" placeholder="Enter your gender">F
+            <br><br>
+            ABOUT:  <textarea name="" id="" rows="10" cols="30"></textarea> 
+            PHONE: <input type="number" placeholder="Enter mobile number">
+            <br><br>
+            INTRESTED IN :<input type="radio" placeholder="Enter your gender">Friendship
+            <input type="radio" placeholder="Enter your gender">Dating
+            <br><br>
+            ATTACHMENT:<input type="submit" value="Choose file">no file choosen
+            <br><br>
+            <input type="submit" value="Register">
+            <input type="submit" value="Register as admin">
+
+        </form>
+
+    </body>
+</html>
