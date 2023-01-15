@@ -1,0 +1,1192 @@
+<html>
+    <head>
+        <style>
+             ul {
+                list-style-type: none;
+                padding: 3px;
+                overflow: hidden;
+                background-color: #333;
+                
+                
+              }
+
+            li {
+                float: left;
+                text-decoration: none;
+                
+                
+               }
+
+           li a {
+               display:inline;
+               color: white;
+               margin:10px;
+               padding:3px;
+               text-decoration: none;
+               font-size: larger;
+               
+              }
+              #div_1{
+                float:right;
+            }
+
+            li a:hover {
+                  background-color:orange;
+            }
+            footer {
+                 text-align: center;
+                 padding: 3px;
+                 background-color:#333;
+                 color: white;
+            }
+            .main_div{
+                text-align: center;
+                box-sizing: border-box;
+            }
+            h1{
+                text-align: center;
+                color: aliceblue;
+            }
+            body{
+                background-image: url("home1.jpg");
+            }
+            .name{
+                border-radius: 25px;
+                
+                padding: 10px; 
+                width: 210px;
+                height: 10px;  
+            }
+            .name2{
+                border-radius: 25px;
+            }     
+            .button1{
+                
+                margin: 0;
+                position: absolute;
+                left: 48%;
+                background-color:#333;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                font-family: sans-serif;
+         
+            
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            
+            <ul>
+                <div id="sample_div">
+                    <li><a href="home.html"><b> &#128663; Automob-mechanic </b></a></li>
+                    </div>
+                    <div id="div_1">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">   Services</a></li>
+                    <li><a href="booking.html">    Booking</a></li>
+                    <li><a href="home.html">       contact@automob.co.in</a></li>
+                    <li><a href="#" id="ph.no">    999 999 9999</a></li>
+                    </div>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <h1>Schedule your Appoinment</h1>
+        <br>
+        <br>
+        <div class="main_div">
+        <form action="booking-success.html">
+            Appointment date:<input type="date" class="name">
+            <br>
+            <br>
+            City:<input type="text" class="name">
+            <br>
+            <br>
+            State:<input type="text" class="name"><br>
+            <br>
+            Send Notifiaction: <input type="radio" >Email
+            <input type="radio">SMS 
+            <br>
+            <br>
+            Address:<textarea name="" id="" rows="10" cols="30" class="name2"></textarea>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Book Slot" class="button1">
+        </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <pre>Copyright &#169; 2020 Automob-mechanic.All Rights Reserved </pre>
+            </footer>
+    </body>
+</html>
+
+
+-------------------------------------------
+
+
+
+
+
+
+
+
+<html>
+    <head>
+        <style>
+            #img1{
+                height: 200px;
+                width: 400px;;
+                
+            }
+            ul {
+                list-style-type: none;
+                padding: 3px;
+                overflow: hidden;
+                background-color: #333;
+                
+                
+              }
+
+            li {
+                float: left;
+                text-decoration: none;
+                
+                
+               }
+
+           li a {
+               display:inline;
+               color: white;
+               margin:10px;
+               padding:3px;
+               text-decoration: none;
+               font-size: larger;
+               
+              }
+
+
+            li a:hover {
+                  background-color:orange;
+            }
+            footer {
+                 text-align: center;
+                 padding: 3px;
+                 background-color:#333;
+                 color: white;
+            }
+            #div_1{
+                float: right;
+            }
+            h1{
+                text-align: center;
+                color: antiquewhite;
+            }
+            .center {
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 width: 50%;
+                 border-radius: 20px;
+            }
+            ol{
+                text-align: center;
+            }
+            body{
+                background-image: url("home1.jpg");
+            }
+            .details{
+                text-align: center;
+            }
+            
+            .button1{
+                margin: 0;
+                position: absolute;
+                left: 45%;
+                background-color:#333;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                font-family: sans-serif;
+  
+               }
+               h2{
+                color: aliceblue;
+               }
+            
+           
+            
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <div id="sample_div">
+                <li><a href="home.html"><b> &#128663; Automob-mechanic </b></a></li>
+                </div>
+                <div id="div_1">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="home.html">contact@automob.co.in</a></li>
+                <li><a href="#" id="ph.no">999 999 9999</a></li>
+                </div>
+            </ul>
+        </nav>
+        <br>
+        <br>
+       
+        <h1>Body repair Service</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="body-repair-service.jpg" id="img1" class="center">
+        <br>
+        <br>
+        <div class="details">
+        <h3>Paint scratches and dents degrades the apperance of your car ?  Opt for Automob-mechanic's body repair service.The service aims at:</h3>
+        <div class="list_1">
+         
+        <h2><b> Car dent repair</b></h2>
+        <h2> Car painting</h2>
+        <h2> Complete car body repair service</h2>
+        
+        
+        
+        </div>
+        </div>
+        
+        <br>
+        <form action="booking.html">
+            <input type="submit" value="Book Services" class="button1">
+        </form>
+        <br>
+        <br>
+        <br>
+
+        
+        <footer>
+            <pre>Copyright &#169; 2020 Automob-mechanic.All Rights Reserved </pre>
+            </footer>
+    </body>
+</html>
+
+
+------------------------------------
+
+
+<html>
+    <head>
+        <style>
+            #img1{
+                height: 200px;
+                width: 400px;;
+            }
+            ul {
+                list-style-type: none;
+                padding: 3px;
+                overflow: hidden;
+                background-color: #333;
+                
+                
+              }
+
+            li {
+                float: left;
+                text-decoration: none;
+                
+                
+               }
+
+           li a {
+               display:inline;
+               color: white;
+               margin:10px;
+               padding:3px;
+               text-decoration: none;
+               font-size: larger;
+               
+              }
+              #div_1{
+                float:right;
+            }
+
+            li a:hover {
+                  background-color:orange;
+            }
+            footer {
+                 text-align: center;
+                 padding: 3px;
+                 background-color:#333;
+                 color: white;
+            }
+            .main_div{
+                text-align: center;
+                box-sizing: border-box;
+            }
+            .center{
+                text-align: center;
+            }
+            body{
+                background-image: url("home1.jpg");
+            }
+            #img1{
+                border-radius: 20px;
+            }
+            h2{
+                color: aliceblue;
+            }
+
+           
+            
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            
+            <ul>
+                <div id="sample_div">
+                    <li><a href="home.html"><b> &#128663; Automob-mechanic </b></a></li>
+                    </div>
+                    <div id="div_1">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">   Services</a></li>
+                    <li><a href="booking.html">    Booking</a></li>
+                    <li><a href="home.html">       contact@automob.co.in</a></li>
+                    <li><a href="#" id="ph.no">    999 999 9999</a></li>
+                    </div>
+               
+            </ul>
+        </nav>
+        <div class="center">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        <img src="thank-you.jpg" id="img1">
+        <h2>Thanks for Booking Our Service &#128077;</h2>
+        <h3>We will get back to you soon with the details via email/phone.</h3>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <footer>
+            <pre>Copyright &#169; 2020 Automob-mechanic.All Rights Reserved </pre>
+            </footer>
+    </body>
+</html>
+    </body>
+    </html>    
+    
+    
+    
+    ---------------------------
+    
+    
+    <html>
+    <head>
+        <style>
+            ul {
+                list-style-type: none;
+                padding: 3px;
+                overflow: hidden;
+                background-color: #333;
+                
+                
+              }
+
+            li {
+                float: left;
+                text-decoration: none;
+                
+                
+               }
+
+           li a {
+               display:inline;
+               color: white;
+               margin:10px;
+               padding:3px;
+               text-decoration: none;
+               font-size: larger;
+               
+              }
+              #div_1{
+                float:right;
+            }
+
+            li a:hover {
+                  background-color:orange;
+            }
+            footer {
+                 text-align: center;
+                 padding: 3px;
+                 background-color:#333;
+                 color: white;
+            }
+            .main_div{
+                text-align: center;
+                box-sizing: border-box;
+            }
+            h1{
+                text-align: center;
+                color: aliceblue;
+            }
+            body{
+                background-image: url("home1.jpg");
+            }
+            .name{
+                border-radius: 25px;
+                
+                padding: 10px; 
+                width: 210px;
+                height: 10px;  
+            }
+            
+            .button1{
+                
+                margin: 0;
+                position: absolute;
+                left: 45%;
+                background-color:#333;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                font-family: sans-serif;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <nav>
+            
+            <ul>
+                <div id="sample_div">
+                    <li><a href="home.html"><b> &#128663; Automob-mechanic </b></a></li>
+                    </div>
+                    <div id="div_1">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">   Services</a></li>
+                    <li><a href="booking.html">    Booking</a></li>
+                    <li><a href="home.html">       contact@automob.co.in</a></li>
+                    <li><a href="#" id="ph.no">    999 999 9999</a></li>
+                    </div>
+               
+            </ul>
+        </nav>
+        
+        <br>
+        <br>
+        <h1>Book Your Service</h1>
+        <br>
+        <br>
+        
+        <div class="main_div">
+        <form action="appointment.html">
+           <b>Name:</b><input type="text" placeholder="enter name" class="name"><br>
+            <br>
+            
+            <b>Email-id:</b> <input type="email" placeholder="enter mail-id" class="name"><br>
+            
+            <br>
+            <b>Phone-number:</b><input type="number" placeholder="enter mob-no" class="name"><br>
+            
+            <br>
+            <b>Select Service:</b><input type="text" placeholder="select service" class="name"><br>
+            <br>
+            
+            <b>Car Make:</b><input type="text" placeholder="car-make" class="name"><br>
+            <br>
+            
+            <b>Car Model:</b><input type="text" placeholder="car-model" class="name"><br>
+            <br>
+            
+            <b>Fuel type:</b><input type="radio">petrol            
+            <input type="radio">Disel           
+            <input type="radio">LPG            
+            <input type="radio">Others<br>
+            <br>
+            <b>Kilometer Ran:</b><input type="number" value="km" class="name"><br>
+            <br>
+            <br>
+            <input type="submit" value="Schedule an Appointment" class="button1">          
+
+        </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        
+        <footer>
+            <pre>Copyright &#169; 2020 Automob-mechanic.All Rights Reserved </pre>
+            </footer>
+    </body>
+</html>
+
+
+---------------
+
+<html>
+    <head>
+        <style>
+            #img1{
+                height: 200px;
+                width: 400px;;
+                display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 border-radius: 20px;
+            }
+            ul {
+                list-style-type: none;
+                padding: 3px;
+                overflow: hidden;
+                background-color: #333;
+                
+                
+              }
+
+            li {
+                float: left;
+                text-decoration: none;
+                
+                
+               }
+
+           li a {
+               display:inline;
+               color: white;
+               margin:10px;
+               padding:3px;
+               text-decoration: none;
+               font-size: larger;
+               
+              }
+
+
+            li a:hover {
+                  background-color:orange;
+            }
+            footer {
+                 text-align: center;
+                 padding: 3px;
+                 background-color:#333;
+                 color: white;
+            }
+            h1{
+                text-align: center;
+                color: aliceblue;
+            }
+            body{
+                background-image: url("home1.jpg");
+            }
+            #div_1{
+                float:right;
+            }
+            h4{
+                text-align: center;
+                color: aliceblue;
+            }
+            h3{
+                text-align: center;
+            }
+            .button1{
+                
+                margin: 0;
+                position: absolute;
+                left: 45%;
+                background-color:#333;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                font-family: sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            
+            <ul>
+                <div id="sample_div">
+                    <li><a href="home.html"><b> &#128663; Automob-mechanic </b></a></li>
+                    </div>
+                    <div id="div_1">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">   Services</a></li>
+                    <li><a href="booking.html">    Booking</a></li>
+                    <li><a href="home.html">       contact@automob.co.in</a></li>
+                    <li><a href="#" id="ph.no">    999 999 9999</a></li>
+                    </div>
+               
+            </ul>
+        </nav>
+        <br>
+        <br>
+
+        
+        <h1>Car care Service</h1>
+        <br>
+        <br>
+        <img src="car-care-service.jpg" id="img1">
+        <br>
+        <br>
+        <h3>Looking to keep your  car neat and clean? Save money and opt for AutoMob-Mechanic's car care service.We offer an extensive range of car wash and cleaning service such as:</h3>
+        <h4> Basic car washing and vacumming</h4>
+        <h4> Detailed interior and upholstery cleaning</h4>
+        <h4> Protective coating</h4>
+        <h4> Dashboard polishing</h4>
+        <br>
+        <br>
+        <form action="booking.html">
+            <input type="submit" value="Book Services" class="button1">
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+        <footer>
+            <pre>Copyright &#169; 2020 Automob-mechanic.All Rights Reserved </pre>
+            </footer>
+    </body>
+</html>
+
+---------------------------
+
+<html>
+    <head>
+        <title>Automob-mechanic</title>
+        <style>
+            a{
+                text-decoration: none;
+                margin: 10px;
+                
+                color: aliceblue;
+            }
+            #ph.no{
+                color: black;
+            }
+            #img{
+                height: 400px;
+                width: 600px;
+                
+            }
+            ul {
+                list-style-type: none;
+                padding: 3px;
+                overflow: hidden;
+                background-color: #333;
+                
+                
+              }
+
+            li {
+                float: left;
+                
+               }
+
+           li a {
+               display:inline;
+               color: white;
+               
+               padding:3px;
+               text-decoration: none;
+               font-size: larger;
+              }
+
+
+            li a:hover {
+                  background-color:orange;
+            }
+            footer {
+                 text-align: center;
+                 padding: 3px;
+                 background-color:#333;
+                 color: white;
+            }
+            body{
+                background-image: url("home1.jpg");
+            }
+            .center {
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 width: 50%;
+            }
+            h1{
+                text-align: center;
+                color: aliceblue;
+                font-family:sans-serif;
+                
+
+            }
+            h3{
+                text-align: center;
+                color:black;
+            }
+            .button{
+                margin: 0;
+                position: absolute;
+                left: 45%;
+                background-color:#333;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                font-family: sans-serif;
+  
+               }
+               #div_1{
+                float: right;
+               }
+               #sample_div{
+                color: aliceblue;
+                font-family:cursive
+
+               }
+            
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            
+            <ul>
+                <div id="sample_div">
+                <li><a href="home.html"><b> &#128663; Automob-mechanic </b></a></li>
+                </div>
+                <div id="div_1">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="home.html">contact@automob.co.in</a></li>
+                <li><a href="#" id="ph.no">999 999 9999</a></li>
+                </div>
+            </ul>
+            </nav>
+            
+            <h1>About us</h1>
+            <img src="home.jpg" id="img" class="center">
+            <h3>"One stop solution to get your car repaired and serviced"</h3>
+            <h3>At Automob-mechanic,we aim to make the car repair and service experience straight forward by providing services for repairing,servicing and maintaining-lending our expertise in all forms.
+                You can tell us the service and book an appointment with us on your convienent date.Then,our representative will take care of everything on their own.
+            </h3>
+            <br>
+            <br>
+            <form action="services.html">
+                <input type="submit" value="Explore More" class="button">
+
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+           
+            <footer>
+            <pre>Copyright &#169; 2020 Automob-mechanic.All Rights Reserved </pre>
+            </footer>
+     
+    </body>
+</html>
+
+--------------------------------
+
+
+
+<html>
+    <head>
+        <style>
+            #img1{
+                height: 200px;
+                width: 400px;;
+            }
+            ul {
+                list-style-type: none;
+                padding: 3px;
+                overflow: hidden;
+                background-color: #333;
+                
+                
+              }
+
+            li {
+                float: left;
+                text-decoration: none;
+                
+                
+               }
+
+           li a {
+               display:inline;
+               color: white;
+               margin:10px;
+               padding:3px;
+               text-decoration: none;
+               font-size: larger;
+               
+              }
+
+
+            li a:hover {
+                  background-color:orange;
+            }
+            footer {
+                 text-align: center;
+                 padding: 3px;
+                 background-color:#333;
+                 color: white;
+            }
+            #div_1{
+                float: right;
+            }
+            .center {
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 width: 50%;
+                 border-radius: 20px;
+            }
+            h1{
+                text-align: center;
+                color: aliceblue;
+            }
+            body{
+                background-image: url("home1.jpg");
+            }
+            h2{
+                text-align: center;
+                color: aliceblue
+            }
+            h3{
+                text-align: center;
+            }
+            
+            .button1{
+                margin: 0;
+                position: absolute;
+                left: 45%;
+                background-color:#333;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                font-family: sans-serif;
+  
+               }
+            
+            
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            
+            <ul>
+                <div id="sample_div">
+                    <li><a href="home.html"><b> &#128663; Automob-mechanic </b></a></li>
+                    </div>
+                    <div id="div_1">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">   Services</a></li>
+                    <li><a href="booking.html">    Booking</a></li>
+                    <li><a href="home.html">       contact@automob.co.in</a></li>
+                    <li><a href="#" id="ph.no">    999 999 9999</a></li>
+                    </div>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        
+        <h1>Preventive Maintenance Service</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="preventive-maintenance-service.jpg" id="img1" class="center">
+        <br>
+        <h3>Looking to keep your car functionally smoothy?? Save money and opt for AutoMob-Mechanic's periodic maintenance service.This services aim at</h3>
+        <h2> filter replacement</h2>
+        <h2> Engine-oil replacement</h2>
+        <h2> Break pad cleaning</h2>
+        <br>
+        <br>
+        <form action="booking.html">
+            <input type="submit" value="Book Services" class="button1">
+        </form>
+        <br>
+        <br>
+        <br>
+        
+        <footer>
+            <pre>Copyright &#169; 2020 Automob-mechanic.All Rights Reserved </pre>
+            </footer>
+    </body>
+</html>
+
+--------------------------
+
+
+<html>
+    <head>
+        <title>Automob-mechanic</title>
+        <style>
+            .img1{
+                height: 200px;
+                width: 400px;;
+                border-radius: 20px;
+            }
+            #main-div{
+                display: flex;
+                margin: 30px;
+                padding: 15px;
+                justify-content:space-between;
+            }
+            body{
+                background-image: url("home1.jpg");
+            }
+            ul {
+                list-style-type: none;
+                padding: 3px;
+                overflow: hidden;
+                background-color: #333;
+                margin: 5px;
+                
+              }
+
+            li {
+                float: left;
+                
+               }
+
+           li a {
+               display:inline;
+               color: white;
+               margin: 10px;
+               
+               padding:3px;
+               text-decoration: none;
+               font-size: larger;
+              }
+
+
+            li a:hover {
+                  background-color:orange;
+            }
+            footer {
+                 text-align: center;
+                 padding: 3px;
+                 background-color:#333;
+                 color: white;
+            }
+            #div_1{
+                float: right;
+                
+               }
+               h1{
+                color: aliceblue;
+               }
+            h1,h2{
+                text-align: center;
+            } 
+            
+            .button1{
+                margin: 0;
+                position: absolute;
+                left: 10%;
+                background-color:#333;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                font-family: sans-serif;
+  
+               }
+               .button2{
+                margin: 0;
+                position: absolute;
+                left: 45%;
+                background-color:#333;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                font-family: sans-serif;
+  
+               }
+               .button3{
+                margin: 0;
+                position: absolute;
+                left: 80%;
+                background-color:#333;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                font-family: sans-serif;
+  
+               }
+            
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            
+            <ul>
+                <div id="sample_div">
+                    <li><a href="home.html"><b> &#128663; Automob-mechanic </b></a></li>
+                    </div>
+                    <div id="div_1">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">   Services</a></li>
+                    <li><a href="booking.html">    Booking</a></li>
+                    <li><a href="home.html">       contact@automob.co.in</a></li>
+                    <li><a href="#" id="ph.no">    999 999 9999</a></li>
+                    </div>
+                
+            </ul>
+        </nav> 
+        <br>
+        <br>
+        <br>
+           
+        
+            <h1>Our Services</h1>
+            <br>
+            <br>
+            <h2>                 Our representatives are professionally trained and skilled with latest and furnstic techniques to provide a best quality services
+                 
+                 At Automob-mechanic,we provide a high class service to the customers for their happy and memorable driving experience
+            </h2>
+            <br>
+            
+            <div id="main-div">
+            <div>
+                <h3><b>preventive Maintenance Service</b></h3>
+                <img src="preventive-maintenance.jpg" class="img1">
+                <h4>Periodically check and keep your car running 
+                     Offer:20% off
+                </h4>
+                <form action="preventive-maintenance-service.html">
+                    <input type="submit" value="More Details" class="button1">
+                </form>
+            </div>
+            <div>
+                <h3><b>Body Repair Service</b></h3>
+                <img src="body-repair.jpg" class="img1">
+                <h4>Full chasis body repair provided by the experts
+                     Offer:10% off
+                </h4>
+                <form action="body-repair-service.html">
+                    <input type="submit" value="More Details" class="button2">
+                </form>
+            </div>
+            <div>
+                <h3><b>Car Care Service</b></h3>
+                <img src="car-care.jpg" class="img1">
+                <h4>Get your car sparkling clean in just ten minutes
+                     Offer:15% off
+                </h4>
+                <form action="car-care-service.html">
+                    <input type="submit" value="More Details"  class="button3">
+                </form>
+            </div>
+            </div>
+            <br>
+            <br>
+           
+            <footer>
+                <pre>Copyright &#169; 2020 Automob-mechanic.All Rights Reserved </pre>
+                </footer>
+          -----------------
